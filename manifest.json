@@ -1,0 +1,15 @@
+{
+   "content_scripts": [ {
+      "exclude_globs": [  ],
+      "exclude_matches": [  ],
+      "include_globs": [ "http://*/*", "https://*/*" ],
+      "js": [ "script.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_idle"
+   } ],
+   "converted_from_user_script": true,
+   "description": "\u89C6\u9891\u53BB\u9ED1\u5C4F",
+   "key": "5wddnDePLN7bfqMjYro0cxzsmfqMWPGP9Jj5OMOSVTg=",
+   "name": "YoukuAntiADs",
+   "version": "0.2.4"
+}
